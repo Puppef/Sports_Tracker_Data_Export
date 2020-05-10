@@ -86,7 +86,7 @@ def login():
 link = 'https://www.sports-tracker.com/diary/workout-list/'
 browser.get(link)
 time.sleep(1)
-enter_email('email@wtv.ocm', "//input[@id='username']", 'password' , "//input[@id='password']")
+enter_email('email@wtv.com', "//input[@id='username']", 'password' , "//input[@id='password']")
 time.sleep(1)
 login()
 time.sleep(5)
